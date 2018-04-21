@@ -44,7 +44,7 @@ resume_social_links:
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/lukinskas/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://lukas.netlify.com/"
+  resume_website_url:           "https://lukasn.com/"
 resume_print_social_links:      true
 
 # Design settings
