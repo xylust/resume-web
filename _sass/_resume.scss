@@ -145,7 +145,10 @@
     color: #fff;
   }
 
-  &.not-looking { width: 400px; }
+  &.not-looking { 
+    width: 100%;
+    max-width: 400px; 
+  }
 }
 
 // resume content styles
