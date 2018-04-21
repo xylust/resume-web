@@ -148,6 +148,10 @@
   &.not-looking { 
     width: 100%;
     max-width: 400px; 
+    max-height: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
 }
 
