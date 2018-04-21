@@ -105,9 +105,12 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}</p>
+          {% if project.url %}
+            <p class="project-icon"><a href="{{ project.url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-website.html %}</a></p>
+          {% endif %}
           {% if project.git %}
             <p class="project-icon"><a href="{{ project.git }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a></p>
           {% endif %}

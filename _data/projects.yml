@@ -12,6 +12,6 @@
 - project: Newspaper Website
   role: Developer
   duration: 2017 &mdash; 2018
-  # url: 
+  url: "http://webcw-g20.apps.devcloud.eecs.qmul.ac.uk/"
   git: "https://github.com/xylust/newspaper_cw"
   description: Created an online one-page newspaper application built in Django and Vue.js, it makes use of Axios (asynchronous requests), REST Framework and a few other NPM packages. It was deployed on OpenShift.
