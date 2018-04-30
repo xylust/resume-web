@@ -5,7 +5,7 @@
   role: Creator
   duration: 2017 &mdash; 2018
   # url: 
-  git: "https://github.com/samisnotinsane/arq-teleop-robot/tree/lukas_development"
+  git: "https://github.com/xylust/teleop-robot"
   description: Made use of a Leap Motion device to capture the user's palm position and translate it in to visual robot movement enabling teleoperation with natural hand movement.
 
 # Web Project
