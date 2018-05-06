@@ -29,6 +29,10 @@
     display: block;
   }
 
+  .w3-animate-left {
+    animation-delay: 100ms;
+  }
+
   .header-name {
     @include sans;
     font-size: 3rem;
