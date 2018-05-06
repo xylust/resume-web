@@ -39,11 +39,11 @@
     margin: 1rem 0 2rem;
   }
 
-  .header-contact-info {
+  .header-quote {
     @include sans;
     text-align: center;
   }
-  .header-contact-info p a {
+  .header-quote p a {
     color: inherit;
   }
 
@@ -159,6 +159,20 @@
 
 .content-section {
   margin: 0 0 3rem;
+
+  .resume-item-logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 0.13rem 0.75rem 0.30rem auto;
+  }
+
+  .resume-item-logo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
   .resume-item { margin-bottom: 2rem; }
 

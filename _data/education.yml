@@ -1,8 +1,10 @@
 # Degree
 - degree: Bachelor's Degree, Computer Science
   uni: Queen Mary, University of London
+  logo: queenmary
   year: 2014 &mdash; 2018
-
+  summary: An exciting 4 years of studies with interesting modules such as&colon; <ul class="resume-item-list"><li>Big Data Processing, Algorithms and Data Structures</li><li>Object-Oriented Programming, Web Programming</li><li>Security Engineering, Software Engineering, Operating Systems</li></ul>
+  linkedin: https://www.linkedin.com/school/queen-mary-university-of-london/
 # - degree: 
 #   uni: 
 #   year: 
