@@ -20,6 +20,15 @@
 
 .page-header { padding: 1.5rem 0;
 
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
   .avatar {
     width: 95px;
     max-width: 100%;
@@ -27,10 +36,7 @@
     @include border-radius(100px);
     margin: 0 auto;
     display: block;
-  }
-
-  .w3-animate-left {
-    animation-delay: 100ms;
+    animation: 1s ease-out 0s 1 slide-in;
   }
 
   .header-name {
