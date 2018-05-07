@@ -12,7 +12,7 @@
 
       <!-- Avatar -->
       {% if site.resume_avatar %}
-      <div id="avatar-placeholder"></div>
+      <div class="avatar-placeholder"></div>
       <img src="images/avatar.jpg" alt="A photograph of me" class="avatar no-print" itemprop="image">
       {% endif %}
 
@@ -254,7 +254,7 @@
   <script>
     window.addEventListener('load', function(){
       // hide the div placeholder
-      document.querySelector('#avatar-placeholder').style.display = 'none';
+      document.querySelector('.avatar-placeholder').style.display = 'none';
       // add the class 'loaded' to avatar which will trigger the animation
       document.querySelector('.avatar').classList.add('loaded');
     })
