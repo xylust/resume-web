@@ -4,6 +4,9 @@
 {% include head.html %}
 
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
 
   <div class="wrapper" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}" />
@@ -12,7 +15,6 @@
 
       <!-- Avatar -->
       {% if site.resume_avatar %}
-      <div class="avatar-placeholder"></div>
       <img src="images/avatar.jpg" alt="A photograph of me" class="avatar no-print" itemprop="image">
       {% endif %}
 
@@ -249,14 +251,15 @@
     </footer>
 
   </div>
-
 <!-- Get rid of 'flash of unstyled content' for the avatar -->
   <script>
     window.addEventListener('load', function(){
+      // get the overflow for the body working again
+      document.querySelector('body').style.overflow = 'auto';
       // hide the div placeholder
-      document.querySelector('.avatar-placeholder').style.display = 'none';
+      document.querySelector('#loading').classList.add('fade-out');
       // add the class 'loaded' to avatar which will trigger the animation
-      document.querySelector('.avatar').classList.add('loaded');
+      document.querySelector('.avatar').classList.add('slide-in');
     })
   </script>
 </body>
