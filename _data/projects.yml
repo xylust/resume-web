@@ -1,5 +1,12 @@
 # Projects
 
+# Web Project
+- project: Resume Website
+  role: Creator
+  duration: 2018 &mdash; Present
+  git: "https://github.com/xylust/resume-web"
+  description: Created an online one-page resume website using jekyll, the website also uses Netlify for continuous deployment. You're currently on it!
+
 # Dissertation
 - project: "You are in control: advanced Human-Computer Interfaces for natural teleoperation of robotic hands."
   role: Creator
@@ -8,7 +15,7 @@
   git: "https://github.com/xylust/teleop-robot"
   description: Made use of a Leap Motion device to capture the user's palm position and translate it in to visual robot movement enabling teleoperation with natural hand movement.
 
-# Web Project
+# University Project (Web Programming)
 - project: Newspaper Website
   role: Developer
   duration: 2017 &mdash; 2018
