@@ -1,6 +1,9 @@
 # Site settings
 title: "Lukas Normantas"
 description: "Single page resume for Lukas Normantas who is a soon-to-be Computer Science graduate"
+keywords: "resume, résumé, cv, curriculum vitae, lukas normantas, recruitment, software engineer, technology, job, hiring"
+robots: "index, follow"
+author: "Lukas Normantas"
 
 # Build settings
 markdown: kramdown
