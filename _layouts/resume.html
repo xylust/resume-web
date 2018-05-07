@@ -258,6 +258,8 @@
       document.querySelector('body').style.overflow = 'auto';
       // hide the div placeholder
       document.querySelector('#loading').classList.add('fade-out');
+      // remove the div placeholder
+      window.setTimeout(function(){document.querySelector('#loading').remove()}, 300);
       // add the class 'loaded' to avatar which will trigger the animation
       document.querySelector('.avatar').classList.add('slide-in');
     })
