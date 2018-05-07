@@ -33,12 +33,52 @@
 
   <!-- Get rid of 'flash of unstyled content' for the avatar -->
   <style>
-    .avatar-placeholder {
-      width: 95px;
-      max-width: 100%;
+    body {
       overflow: hidden;
-      margin: 0 auto;
-      display: block;
+    }
+    #loading {
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #333;
+      z-index: 10;
+    }
+    #loading .spinner {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      border: 16px solid rgba(255, 255, 255, 0.25);
+      border-top: 16px solid #FFF;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 1s ease-in-out infinite;
+    }
+    #loading.fade-out {
+      animation: fade-out 250ms ease-out forwards;
+    }
+    @keyframes fade-out {
+      0% {opacity: 1;}
+      100% {opacity: 0;}
+    }
+    @keyframes spin {
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(360deg);}
+    }
+    @keyframes slide-in {
+      0% {
+        transform: translateX(-200%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    .avatar.slide-in {
+      animation: 1s ease-out 0s 1 slide-in;
     }
   </style>
 </head>
