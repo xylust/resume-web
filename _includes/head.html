@@ -15,8 +15,6 @@
   <meta name="robots" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.robots }}{% endif %}">
   <meta name="author" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.author }}{% endif %}">
 
-  <meta name="wot-verification" content="6683490bb67ee0df3d91"/>
-
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
