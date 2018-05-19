@@ -13,7 +13,7 @@
   duration: 2017 &mdash; 2018
   # url: 
   git: "https://github.com/xylust/teleop-robot"
-  description: Made use of a Leap Motion device to capture the user's palm position and translate it in to visual robot movement enabling teleoperation with natural hand movement.
+  description: Made use of a <a href="https://www.leapmotion.com/">Leap Motion</a> device to capture the user's palm position and translate it in to visual robot movement enabling teleoperation with natural hand movement.
 
 # University Project (Web Programming)
 - project: Newspaper Website
@@ -21,4 +21,4 @@
   duration: 2017 &mdash; 2018
   url: "http://webcw-g20.apps.devcloud.eecs.qmul.ac.uk/"
   git: "https://github.com/xylust/newspaper_cw"
-  description: Created an online one-page newspaper application built in Django and Vue.js, it makes use of Axios (asynchronous requests), REST Framework and a few other NPM packages. It was deployed on OpenShift.
+  description: Created an online one-page newspaper application built in Django and Vue.js, it makes use of Axios (asynchronous requests), REST Framework and a few other npm packages. It was deployed on OpenShift.
