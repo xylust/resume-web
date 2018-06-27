@@ -1,7 +1,27 @@
 # Skills
-# TODO: Probably want to setup a key-value kind of thing for Skill:URL instead of this mess.
-- skill: Languages
-  description: <a href="https://go.java/index.html?intcmp=gojava-banner-java-com">Java</a>, <a href="https://www.python.org/">Python</a>, <a href="https://www.javascript.com/">JavaScript</a>
+- category: Languages
+  skills: 
+    Java: https://go.java/index.html?intcmp=gojava-banner-java-com
+    Python: https://www.python.org/
+    JavaScript: https://www.javascript.com/
 
-- skill: Technologies
-  description: <a href="https://vuejs.org/">Vue.js</a>, <a href="https://www.djangoproject.com/">Django</a>, <a href="https://git-scm.com/">Git</a>, <a href="https://www.w3schools.com/xml/">XML</a>, <a href="https://www.w3schools.com/xml/xml_xquery.asp">XQuery</a>, <a href="https://www.w3schools.com/xml/xsl_intro.asp">XSLT</a>, <a href="https://www.w3schools.com/xml/xpath_intro.asp">XPath</a>, <a href="https://www.w3schools.com/html/">HTML</a>, <a href="https://www.w3schools.com/css/">CSS</a>, <a href="https://getbootstrap.com/">Bootstrap</a>, <a href="https://fontawesome.com/">FontAwesome</a>, <a href="http://www.ros.org/">Robot Operating System</a>, <a href="https://jekyllrb.com/">jekyll</a>, <a href="https://www.netlify.com/">Netlify</a>, <a href="http://www.django-rest-framework.org/">REST Framework</a>, <a href="https://github.com/axios/axios">Axios</a>, <a href="https://www.npmjs.com/">npm</a>, <a href="https://www.openshift.com/">OpenShift</a>
+- category: Technologies
+  skills: 
+    Vue.js: https://vuejs.org/ 
+    Django: https://www.djangoproject.com/
+    Git: https://git-scm.com/
+    XML: https://www.w3schools.com/xml/
+    XQuery: https://www.w3schools.com/xml/xml_xquery.asp
+    XSLT: https://www.w3schools.com/xml/xsl_intro.asp
+    XPath: https://www.w3schools.com/xml/xpath_intro.asp
+    HTML: https://www.w3schools.com/html/
+    CSS: https://www.w3schools.com/css/
+    Bootstrap: https://getbootstrap.com/
+    FontAwesome: https://fontawesome.com/
+    Robot Operating System: http://www.ros.org/
+    jekyll: https://jekyllrb.com/
+    Netlify: https://www.netlify.com/
+    REST Framework: http://www.django-rest-framework.org/
+    Axios: https://github.com/axios/axios
+    npm: https://www.npmjs.com/
+    OpenShift: https://www.openshift.com/

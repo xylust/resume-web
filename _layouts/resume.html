@@ -142,10 +142,15 @@
       <header class="section-header">
         <h2>Skills</h2>
       </header>
-      {% for skill in site.data.skills %}
+      {% for item in site.data.skills %}
       <div class="resume-item">
-        <h4 class="resume-item-details">{{ skill.skill }}</h4>
-        <p class="resume-item-copy">{{ skill.description }}</p>
+        <h4 class="resume-item-details">{{ item.category }}</h4>
+        <p class="resume-item-copy">
+          {% for skill in item.skills %}
+            <!-- display the kv pair and add a comma if loop is not in last iteration -->
+            <a href="{{ skill[1] }}">{{ skill[0] }}</a>{% if forloop.last == false %},{% endif %} 
+          {% endfor %}
+        </p>
       </div>
       {% endfor %}
 
