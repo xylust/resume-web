@@ -3,7 +3,7 @@
   uni: Queen Mary, University of London
   logo: queenmary
   year: 2014 &mdash; 2018
-  summary: A year outside of university working in an industrial placement plus an exciting 3 years of studies with interesting modules such as&colon; <ul class="resume-item-list"><li>Big Data Processing, Algorithms and Data Structures</li><li>Object-Oriented Programming, Web Programming</li><li>Security Engineering, Software Engineering, Operating Systems</li></ul>
+  # summary: 
   linkedin: https://www.linkedin.com/school/queen-mary-university-of-london/
 
 # - degree: 
